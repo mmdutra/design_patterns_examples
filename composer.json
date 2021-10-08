@@ -1,0 +1,20 @@
+{
+    "name": "mateusdutra/design_patterns",
+    "autoload": {
+        "psr-4": {
+            "Mateusdutra\\DesignPatterns\\": "src/",
+            "Mateusdutra\\Tests": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus Morais Dutra",
+            "email": "mateus.dutra@picpay.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-simplexml": "*",
+        "phpunit/phpunit": "^9.5"
+    }
+}
